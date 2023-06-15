@@ -16,7 +16,7 @@ const takeInput = () => {
   else {
     let i = 0;
     while(i < userInputNumber) {
-      console.log("Iteration! ");
+      console.log("Iteration! " + i);
       i++;
     }
   }
